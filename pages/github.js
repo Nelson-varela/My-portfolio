@@ -25,12 +25,12 @@ const Github =({user}) => {
    
    
 
-export async function  getServerSideProps(){
+export async function getStaticProps(){
 
     const res = await fetch('https://api.github.com/users/Nelson-varela')
     const data = await res.json();
 
-    console.log(data)
+    
     return {
         props: {
             user: data
