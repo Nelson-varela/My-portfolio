@@ -1,0 +1,24 @@
+.overflow{
+    height: 65%;
+    
+
+}
+
+.overflow .card-img-top {
+    transform: scale(1);
+    transition: all 1.1s ease-in-out;
+}
+.overflow .card-img-top:hover {
+    transform: scale(1.5);
+}
+
+#nprogress .bar{
+    background: red;
+
+}
+
+#nprogress .spinner-icon{
+    border-top-color: yellow;
+    border-left-color: yellow;
+}
+
